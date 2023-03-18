@@ -19,4 +19,8 @@ class TasksController < ApplicationController
     require 'pry'; binding.pry
     redirect_to '/tasks'
   end
+
+  def show
+    
+  end
 end

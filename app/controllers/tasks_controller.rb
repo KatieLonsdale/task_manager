@@ -21,6 +21,7 @@ class TasksController < ApplicationController
   end
 
   def show
-    
+    require 'pry'; binding.pry
+    @task = Task.find(params[:id])
   end
 end
